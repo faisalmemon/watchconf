@@ -22,7 +22,6 @@
 		39016F6F1B5468D800AE426F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39016F6E1B5468D800AE426F /* Assets.xcassets */; };
 		39016F841B546D6A00AE426F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016F2D1B5468D800AE426F /* AppDelegate.swift */; };
 		39016F851B546D6A00AE426F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39016F2F1B5468D800AE426F /* ViewController.swift */; };
-		39016F871B546F8000AE426F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39016F861B546F8000AE426F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,7 +105,6 @@
 		39016F6C1B5468D800AE426F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		39016F6E1B5468D800AE426F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39016F701B5468D800AE426F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39016F861B546F8000AE426F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +142,6 @@
 		39016F211B5468D800AE426F = {
 			isa = PBXGroup;
 			children = (
-				39016F861B546F8000AE426F /* Default-568h@2x.png */,
 				39016F2C1B5468D800AE426F /* watchconf */,
 				39016F411B5468D800AE426F /* watchconfTests */,
 				39016F4C1B5468D800AE426F /* watchconfUITests */,
@@ -376,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				39016F381B5468D800AE426F /* LaunchScreen.storyboard in Resources */,
-				39016F871B546F8000AE426F /* Default-568h@2x.png in Resources */,
 				39016F351B5468D800AE426F /* Assets.xcassets in Resources */,
 				39016F331B5468D800AE426F /* Main.storyboard in Resources */,
 			);
