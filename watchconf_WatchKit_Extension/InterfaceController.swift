@@ -12,9 +12,14 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var handleMovie: WKInterfaceMovie!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
+        let initialImage = WKImage(imageName: "Sample1")
+
+        handleMovie.setPosterImage(initialImage)
         // Configure interface objects here.
     }
 
